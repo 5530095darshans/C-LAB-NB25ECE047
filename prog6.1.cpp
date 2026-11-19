@@ -19,6 +19,7 @@ public:
         os << c.re << (c.im >= 0 ? "+" : "") << c.im << "i";
         return os;                                   
     }
+
 };
 
 int main() {
